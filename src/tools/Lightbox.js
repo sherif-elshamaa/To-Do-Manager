@@ -65,7 +65,7 @@ function Lightbox({ show, setShow }) {
     }
     dispatch(addTodo({ task: task }));
     dispatch(posttoast({ toast: { state: 'success', text: 'Task added successful', show: true } }))
-    console.log(task);
+    setErrorMsg(null)
     setShow(false);
     handleClear()
   };
