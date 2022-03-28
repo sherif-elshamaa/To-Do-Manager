@@ -46,7 +46,7 @@ function TaskCard({ id, title, description, assignedTo, priority, startDate, dea
                 </Modal>
             </> : <></>}
             <div className={editState ? "CardShake" : ""} style={{ width: '100%' }}>
-                <Item style={{ borderStyle: "groove", padding: "10px 10px", width: "780px", marginBottom: "10px" }}>
+                <Item className="taskCard" style={{ borderStyle: "groove", padding: "10px 10px", width: "100%", marginBottom: "10px" }}>
                     <Item.Content>
                         <div style={{ display: "flex", justifyContent: "space-between" }}>
                             <Item.Header as="a">{title}</Item.Header>

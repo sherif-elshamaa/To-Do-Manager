@@ -157,8 +157,8 @@ function Filter({ sort, priority, status, date, selectDate }) {
     useEffect(() => { }, [sort, tasks])
 
     return (
-        <Container className="d-flex flex-wrap" style={{ margin: "auto" }}>
-            <Item.Group>
+        <Container className="d-flex flex-wrap" style={{ width: '100%', height: '100%' }}>
+            <Item.Group style={{width: '100%'}}>
                 {renderSwitch(sort, priority, status, date, selectDate, tasks)}
             </Item.Group>
         </Container>

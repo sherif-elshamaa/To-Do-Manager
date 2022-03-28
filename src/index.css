@@ -19,9 +19,7 @@ code {
 
 .sortNavBar{
   display: flex;
-  flex-direction: row;
   width: 100%;
-  margin-left: 60px;
   justify-content: flex-end;
 }
 .filter{
@@ -40,6 +38,18 @@ code {
   display: flex;
   justify-content: space-between;
 }
+
+@media  (max-width: 1000px){
+  
+  .container{
+    justify-content: center !important;
+  }
+  .sortNavBar{
+    justify-content: center !important;
+  }
+  
+}
+
 
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
