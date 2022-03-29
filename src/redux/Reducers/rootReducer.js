@@ -19,7 +19,7 @@ const initialState = {
       title: 'refactor code',
       description: 'refactor code to smaller components, use Data transform objects, add input constrains',
       assignedTo: 'sherif',
-      priority: 'jon',
+      priority: 'Low',
       startDate: new Date(2022, 11, 24, 10, 33, 30, 0),
       deadline: new Date(2022, 4, 22, 10, 33, 30, 0),
       status: "To Do"
